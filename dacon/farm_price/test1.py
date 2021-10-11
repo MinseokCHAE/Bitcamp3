@@ -90,14 +90,13 @@ def at_nmae(pred, dataset):
 0.01 3 128 0.6 0.6 5 21 7 = 0.22933
 0.01 3 128 0.5 0.5 5 21 7 = 0.23142
 
-
 lr0.01, depth3, threads7 고정
 fraction, frequency 조절
 '''
 
 def model_train(x_train, y_train, x_valid, y_valid) :
     params = {'learning_rate': 0.01, 
-              'max_depth': 3, 
+              'max_depth': 2, 
               'boosting': 'gbdt', 
               'objective': 'regression',  
               'is_training_metric': True, 
