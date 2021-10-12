@@ -103,7 +103,7 @@ def model_train(x_train, y_train, x_valid, y_valid) :
               'num_leaves': 128, 
               'feature_fraction': 0.5, 
               'bagging_fraction': 0.5, 
-              'bagging_freq': 5, 
+              'bagging_freq': 7, 
               'seed':21,
               'num_threads': 7
              }
